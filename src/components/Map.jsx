@@ -42,7 +42,7 @@ const Map = () => {
 
     return (
         <div className="flex flex-col items-center p-4">
-            <div ref={mapRef} className="w-full w-[900px] h-[500px] rounded-lg shadow-md" />
+            <div ref={mapRef} className="w-full w-[700px] h-[500px] rounded-lg shadow-md" />
             <button
                 onClick={captureMapSnapshot}
                 className="mt-4 px-4 py-2 bg-black text-white rounded hover:bg-gray-800 transition duration-300"
